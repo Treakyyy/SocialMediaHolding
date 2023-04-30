@@ -1,0 +1,190 @@
+.form{
+    width: 492px;
+    height: 380px;
+    background: rgba(33, 33, 66, 0.6);
+    border: 1px solid rgba(184, 184, 227, 0.08);
+    box-shadow: 0px 10px 10px rgba(6, 6, 40, 0.55), inset 0px -8px 0px rgba(5, 5, 27, 0.4), inset 0px 1px 0px rgba(189, 189, 238, 0.15);
+    border-radius: 4px;
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-items: center;
+}
+.input{
+    width: 196px;
+    height: 40px;
+    background: rgba(3, 3, 31, 0.6);
+    border: 1px solid rgba(184, 184, 227, 0.25);
+    border-radius: 4px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.formInput{
+    width: 418px;
+    height: 74px;
+    background: rgba(3, 3, 31, 0.6);
+    border: 1px solid rgba(184, 184, 227, 0.25);
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.inputFlex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+}
+.labelFlex{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.label{
+    height: 18px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #8989AA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.label1{
+    height: 18px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #FCB223;
+    padding-left: 195px;
+}
+.checked{
+    width: 24px;
+    height: 24px;
+    background: rgba(3, 3, 31, 0.6);
+    border: 1px solid rgba(184, 184, 227, 0.25);
+    border-radius: 4px;
+}
+.labelPadding{
+    height: 18px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #8989AA;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.eye{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 79%;
+    top: 43.8%
+}
+.rectangleLabel{
+    display: flex;
+    justify-content: space-around;
+    height: 18px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #8989AA;
+}
+.checkFlex{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.labelCheckbox{
+    height: 18px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #8989AA;
+}
+.checkbox{
+    display: none;
+}
+.fake{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.fake::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: #FCB223;
+    border-radius: 1px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.2s;
+}
+.checkbox:checked + .fake::before {
+    opacity: 1;
+}
+.formCheckboxFlex{
+    display: flex;
+}
+.flexboxFormCheckbox{
+    display: flex;
+    gap: 10px;
+}
+.textCheckboxForm{
+    display: flex;
+    gap: 5px;
+    height: 18px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #8989AA;
+}
+
+::-webkit-input-placeholder {
+    width: 18px;
+    height: 22px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #8989AA;
+    padding: 16px;
+}
