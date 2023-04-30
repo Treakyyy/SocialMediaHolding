@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+  grid-template-rows: 1fr 3fr 2fr 7fr;
+  text-align: center;
+}
+body{
+  position: relative;
+  min-height: 100vh;
+  background-size: 1480px 1375px;
+  background-repeat: no-repeat;
+  background-image: url(C:\Users\про\Downloads\tests for holding\Holding\public\GroundTop.png)
+}
