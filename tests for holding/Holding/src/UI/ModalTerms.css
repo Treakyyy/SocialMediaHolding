@@ -1,0 +1,75 @@
+.modalContentTerms {
+    width: 660px;
+    height: 3150px;
+    background: rgba(6, 6, 31, 0.97);
+    border: 1px solid rgba(184, 184, 227, 0.08);
+    box-shadow: 0px 10px 10px rgba(6, 6, 40, 0.55), inset 0px -8px 0px rgba(5, 5, 27, 0.4), inset 0px 1px 0px rgba(189, 189, 238, 0.15);
+    border-radius: 4px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.modalTerms{
+    position: absolute;
+    top: -175%;
+    left: 27%;
+    z-index: 1;
+}
+.modalTerms.openModalTerms {
+    height: 100%;
+    display: block;
+}
+.modalTerms.closeModalTerms {
+    height: 0;
+    display: none;
+}
+.modalHeader {
+    width: 124px;
+    height: 48px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    display: flex;
+    gap: 1rem;
+}
+.paragraphHeading{
+    width: 520px;
+    height: 32px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    color: #FCB223;
+    text-align: left;
+}
+.paragraphContent{
+    width: 520px;
+    height: 78px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    padding-right: 100px;
+    text-align: left;
+}
+.modalParagraphs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.closeModal{
+    padding-left: 550px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
