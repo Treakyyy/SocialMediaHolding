@@ -1,0 +1,18 @@
+.contain{
+    display: grid;
+    grid-template-columns: 2fr 10fr 2fr;
+    height: 75px;
+    align-items: center;
+}
+
+.headMenu{
+    display: flex;
+    justify-content: space-between;    
+}
+
+@media screen and (max-width: 1680px){
+    .zz{
+        display: flex;
+        flex-direction: row;
+    }
+}
