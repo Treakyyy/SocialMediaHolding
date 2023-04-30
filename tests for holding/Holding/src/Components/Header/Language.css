@@ -1,0 +1,20 @@
+.whiteLang {
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+    background: transparent;
+    cursor: pointer;
+    font-family: Mullish;
+}
+.blackLang {
+    width: 40px;
+    height: 40px;
+    background: rgba(3, 3, 31, 0.6);
+    border: 1px solid rgba(184, 184, 227, 0.08);
+    box-shadow: 0px 10px 10px rgba(6, 6, 40, 0.55), inset 0px -8px 0px rgba(5, 5, 27, 0.4), inset 0px 1px 0px rgba(189, 189, 238, 0.15);
+    border-radius: 4px;
+    font-family: Mullish;
+    color: #FFFFFF;
+    cursor: pointer;
+}
