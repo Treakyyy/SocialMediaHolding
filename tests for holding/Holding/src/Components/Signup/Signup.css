@@ -1,0 +1,4 @@
+.containerRegister{
+    display: grid;
+    grid-template-columns: 2fr 10fr 2fr;
+}
