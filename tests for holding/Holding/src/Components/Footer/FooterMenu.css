@@ -1,0 +1,34 @@
+.FooterBtnWhite {
+    height: 18px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+}
+.FooterBtnGray {
+    height: 18px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #8989AA;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.menuFooterBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
