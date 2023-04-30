@@ -1,0 +1,87 @@
+.SleepingCard{
+    display: flex;
+    gap: 2rem;
+}
+.cards{
+    width: 234px;
+    height: 240px;
+    background: rgba(3, 3, 31, 0.6);
+    border: 1px solid rgba(184, 184, 227, 0.08);
+    box-shadow: 0px 10px 10px rgba(6, 6, 40, 0.55), inset 0px -8px 0px rgba(5, 5, 27, 0.4), inset 0px 1px 0px rgba(189, 189, 238, 0.15);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+.goldTagline{
+    height: 32px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    color: #FCB223;
+}
+.imgSleeping{
+    width: 124px;
+    height: 80px;
+    padding-left: 20px;
+}
+.imgSleeping1{
+    width: 186px;
+    height: 46px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.paragraphSleeping{
+    height: 32px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+.flexParagraph {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.flexParagraph1 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.paragraphSleeping1{
+    height: 22px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+.gray1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #8989AA;
+}
+.gray2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #8989AA;
+}
