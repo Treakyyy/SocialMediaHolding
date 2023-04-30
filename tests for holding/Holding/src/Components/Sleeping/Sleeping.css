@@ -1,0 +1,9 @@
+.sleeping{
+    display: grid;
+    grid-template-columns: 2fr 10fr 2fr;
+}
+.flexSleeping{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
