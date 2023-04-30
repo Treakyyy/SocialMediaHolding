@@ -1,0 +1,64 @@
+.modalRegistration{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 1;
+}
+.modalContentRegistration {
+    width: 525px;
+    height: 400px;
+    background: rgba(6, 6, 31, 0.97);
+    border: 1px solid rgba(184, 184, 227, 0.08);
+    box-shadow: 0px 10px 10px rgba(6, 6, 40, 0.55), inset 0px -8px 0px rgba(5, 5, 27, 0.4), inset 0px 1px 0px rgba(189, 189, 238, 0.15);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.modalRegistration.openRegistration {
+    height: 100%;
+    display: block;
+}
+.modalRegistration.closeRegistration {
+    height: 0;
+    display: none;
+}
+.modalContentRegister {
+    height: 32px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FCB223;
+}
+.modalTextRegister{
+    height: 44px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.black{
+    color: #000000;
+}
+.btnModalRegister {
+    cursor: pointer;
+    width: 176px;
+    height: 40px;
+    background: #FCB223;
+    box-shadow: 0px 10px 10px rgba(6, 6, 40, 0.5), inset 0px -3px 0px #E48B04, inset 0px 1px 0px rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+}
+.class{
+    width: 136px;
+    height: 136px;
+}
