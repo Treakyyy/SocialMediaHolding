@@ -1,0 +1,10 @@
+.bottomBackground {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    background-size:1480px 800px ;
+    position: relative;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(C:\Users\про\Downloads\tests for holding\Holding\public\bottomBackground.png);
+}
