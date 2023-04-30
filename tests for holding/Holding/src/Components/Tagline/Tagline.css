@@ -1,0 +1,25 @@
+.tagline{
+    color: #FFFFFF;
+    font-family: Mulish;
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.dash{
+    color: #FFFFFF;
+    font-family: Mulish;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 96px;  
+    letter-spacing: -0.03em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.tag{
+    display: grid;
+    grid-template-columns: 2fr 10fr 2fr;
+}
